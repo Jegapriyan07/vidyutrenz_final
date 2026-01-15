@@ -1101,6 +1101,35 @@ a.register-button-home:hover {
 
 /* Tablet and smaller */
 @media (max-width: 768px) {
+
+  /* Slightly larger text sizes for mobile */
+  .cyber-text {
+    font-size: clamp(4rem, 11vw, 8rem);
+    /* Slightly increased */
+  }
+
+  .bottom-text {
+    font-size: clamp(4.5rem, 12vw, 8.5rem);
+    /* Slightly increased */
+  }
+
+  .main-sub {
+    font-size: 3.5rem;
+    /* Increased from 3.2rem */
+    letter-spacing: 6px;
+  }
+
+  .symposium-sub {
+    font-size: 1.2rem;
+    /* Increased from 1.1rem */
+    letter-spacing: 2px;
+  }
+
+  .countdown-label {
+    font-size: 1.6rem;
+    /* Slightly larger */
+  }
+
   .countdown-timer {
     gap: 10px;
     /* Reduce gap between boxes */
@@ -1130,8 +1159,14 @@ a.register-button-home:hover {
   }
 
   .event-date {
-    font-size: 2rem;
-    /* Smaller date */
+    font-size: 2.3rem;
+    /* Increased from 2rem */
+    letter-spacing: 2px;
+  }
+
+  .scroll-text {
+    font-size: 1.6rem;
+    /* Slightly larger */
   }
 }
 
