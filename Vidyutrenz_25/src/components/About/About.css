@@ -190,8 +190,8 @@
 /* --- Slider Section --- */
 .about-slider {
   flex: 1;
-  /* INCREASED SLIDER SIZE */
-  max-width: 700px;
+  /* Logo image box size */
+  max-width: 450px;
   opacity: 0;
   animation: fadeRight 1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.3s forwards;
 }

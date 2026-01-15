@@ -24,28 +24,6 @@ const About = () => {
             built on precision design, robust architecture, and reliable implementation,
             ensuring high standards of performance and dependability.
           </h3>
-
-          <div className="feature-cards">
-            <div className="feature-card red-theme">
-              <div className="feature-icon">
-                <i className="fas fa-bolt"></i>
-              </div>
-              <div className="feature-text">
-                <h3>Innovation</h3>
-                <p>Cutting-edge solutions</p>
-              </div>
-            </div>
-
-            <div className="feature-card blue-theme">
-              <div className="feature-icon">
-                <i className="fas fa-shield-alt"></i>
-              </div>
-              <div className="feature-text">
-                <h3>Reliability</h3>
-                <p>Trusted performance</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="about-slider">
