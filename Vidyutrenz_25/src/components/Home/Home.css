@@ -1094,3 +1094,74 @@ a.register-button-home:hover {
   filter: drop-shadow(0 0 8px #ff003c);
   animation-delay: 0.6s;
 }
+
+/* =========================================
+   MOBILE RESPONSIVE - TIMER BOX OPTIMIZATION
+========================================= */
+
+/* Tablet and smaller */
+@media (max-width: 768px) {
+  .countdown-timer {
+    gap: 10px;
+    /* Reduce gap between boxes */
+  }
+
+  .time-box {
+    min-width: 60px;
+    /* Much smaller width */
+    padding: 8px;
+    /* Smaller padding */
+  }
+
+  .time-value {
+    font-size: 2rem;
+    /* Smaller font size */
+  }
+
+  .time-label {
+    font-size: 0.7rem;
+    /* Smaller label */
+    letter-spacing: 1px;
+  }
+
+  .time-separator {
+    font-size: 1.5rem;
+    /* Smaller separator */
+  }
+
+  .event-date {
+    font-size: 2rem;
+    /* Smaller date */
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .countdown-timer {
+    gap: 8px;
+    /* Even smaller gap */
+  }
+
+  .time-box {
+    min-width: 50px;
+    /* Even smaller width */
+    padding: 6px 4px;
+    /* Minimal padding */
+  }
+
+  .time-value {
+    font-size: 1.6rem;
+    /* Smaller font */
+  }
+
+  .time-label {
+    font-size: 0.6rem;
+    /* Tiny label */
+    margin-top: 4px;
+  }
+
+  .time-separator {
+    font-size: 1.2rem;
+    /* Smaller colons */
+  }
+}
