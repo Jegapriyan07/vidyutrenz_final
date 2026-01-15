@@ -1102,66 +1102,45 @@ a.register-button-home:hover {
 /* Tablet and smaller */
 @media (max-width: 768px) {
 
-  /* Subtle top padding reduction */
+  /* Move content down by reducing top padding */
   .hero-layout {
-    padding-top: 5vh;
-    /* Slightly reduced from 5vh */
-    gap: 1.2vh;
-    /* Slightly more breathing room */
+    padding-top: 2vh;
+    /* Reduced from 5vh to move content down */
+    gap: 1.5vh;
+    /* Increase spacing between elements */
   }
 
-  /* Slight logo size increase */
-  .hero-logo {
-    height: 190px;
-    /* Small increase from 180px */
-  }
-
-  /* Minor text size increases */
-  .main-sub {
-    font-size: 3.4rem;
-    /* Small bump from 3.2rem */
-    letter-spacing: 5px;
-  }
-
-  .symposium-sub {
-    font-size: 1.15rem;
-    /* Tiny increase from 1.1rem */
-  }
-
-  /* Timer - keep compact */
   .countdown-timer {
     gap: 10px;
+    /* Reduce gap between boxes */
   }
 
   .time-box {
     min-width: 60px;
+    /* Much smaller width */
     padding: 8px;
+    /* Smaller padding */
   }
 
   .time-value {
     font-size: 2rem;
+    /* Smaller font size */
   }
 
   .time-label {
     font-size: 0.7rem;
+    /* Smaller label */
     letter-spacing: 1px;
   }
 
   .time-separator {
     font-size: 1.5rem;
+    /* Smaller separator */
   }
 
   .event-date {
-    font-size: 2.2rem;
-    /* Small increase from 2rem */
-    margin-top: 15px;
-    /* Slight spacing */
-  }
-
-  /* Scroll indicator - small increase */
-  .scroll-text {
-    font-size: 1.55rem;
-    /* Tiny bump from 1.5rem */
+    font-size: 2rem;
+    /* Smaller date */
   }
 }
 
