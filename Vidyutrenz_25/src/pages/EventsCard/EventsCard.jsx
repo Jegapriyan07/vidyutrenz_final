@@ -19,6 +19,7 @@ import work_4 from "./../../assets/work_4.png";
 import work_5 from "./../../assets/work_5.png";
 import work_6 from "./../../assets/work_6.png";
 import work_7 from "./../../assets/work_7.png";
+import work_8 from "./../../assets/work_8.png";
 import tech_1_pdf from "./../../assets/tech_1.pdf";
 import tech_2_pdf from "./../../assets/tech_2.pdf";
 import tech_3_pdf from "./../../assets/tech_3.pdf";
@@ -36,7 +37,7 @@ import work_4_pdf from "./../../assets/work_4.pdf";
 import work_5_pdf from "./../../assets/work_5.pdf";
 import work_6_pdf from "./../../assets/work_6.pdf";
 import work_7_pdf from "./../../assets/work_7.pdf";
-
+import work_8_pdf from "./../../assets/work_8.pdf";
 const EventsCard = () => {
   const { eventType } = useParams();
   const navigate = useNavigate();
@@ -64,6 +65,7 @@ const EventsCard = () => {
       { id: 5, title: "Gen AI", description: "Discover generative AI models and create innovative AI-powered applications.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize: "Certification", registrationFee: "₹180", teamSize: "Individual", venue: "AI Lab", coordinators: "Sudharshana B ( 8610365358 )", bgImage: work_5, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_69ubfYPmvWCxRKj2V0w0YvWTAlbQDUFOgXUCBuhdUdJ2qQ/viewform", rulesLink: work_5_pdf },
       { id: 6, title: "Nanotechnology & Material Synthesis", description: "Explore nanomaterials and learn advanced synthesis techniques.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize: "Certification", registrationFee: "₹200", teamSize: "Individual", venue: "Nano Lab", coordinators: "Rajarajan S A ( 9025392252 )", bgImage: work_6, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSf0c8r_e1Usu8-8i8nJGtZdOe0FTQqdBH1PDpuvuBnA7uFWEA/viewform", rulesLink: work_6_pdf },
       { id: 7, title: "Synopsis", description: "Learn to create professional research synopsis and technical documentation.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize: "Certification", registrationFee: "₹180", teamSize: "Individual", venue: "TBD", coordinators: "VISHVESH B ( 6383941462 )", bgImage: work_7, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfzemTG-o1phamMrzAnp1I0RsaAVLzLRX_s_5z8ZQS_lu3LZg/viewform", rulesLink: work_7_pdf },
+      { id: 8, title: "Spin-Powered Probabilistic AI", description: "Explore cutting-edge probabilistic AI models powered by spin-based computing architectures.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize: "Certification", registrationFee: "₹180", teamSize: "Individual", venue: "TBD", coordinators: "TRIJAL ( 6379791779 )", bgImage: work_8, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeXDyimTIV5qBRHw-5bBL8Mblg9uX7ZaRXBWyBfmpgVxLNfeg/viewform", rulesLink: work_8_pdf },
     ],
   };
 
