@@ -447,13 +447,13 @@
 
 @media (max-width: 768px) {
   .contact-page {
-    padding: 280px 20px 60px;
-    /* Increased top padding to 280px for maximum mobile spacing */
+    padding: 580px 20px 60px;
+    /* Extreme top padding for mobile to completely clear all overlaps */
   }
 
   .contact-header {
-    margin-bottom: 100px;
-    /* Increased to 100px for maximum spacing */
+    margin-bottom: 130px;
+    /* Maximum spacing below header */
   }
 
   .contact-info-grid {
