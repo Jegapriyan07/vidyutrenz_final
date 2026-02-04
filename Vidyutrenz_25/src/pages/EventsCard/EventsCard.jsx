@@ -56,8 +56,8 @@ const EventsCard = () => {
     technical: [
       { id: 1, title: "Prototype Parade", description: "Showcase your innovative prototypes and engineering marvels in this exciting exhibition.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "1 to 3 Members", venue: "TBD", coordinators: "Jyothilalitha P ( 9444941814 )", bgImage: tech_1, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfZTzzVJ6OPhUlpkySwsJksrXybXjdVNHBv2OfiaylUvqsfNw/viewform", rulesLink: tech_1_pdf },
       { id: 2, title: "Hypothesis Hub", description: "Present your research papers and innovative ideas to expert judges and win exciting prizes.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "₹150 / No refund", teamSize: "1 to 5 Members", venue: "TBD", coordinators: "Shanmugapriya I ( 6374761932 ) & Abhinauv ( 6374471714 )", bgImage: tech_2, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdCDWFRhIXxEoIbzCnjuKD0SEHzoOdPaiiryWwfCP45oEtowA/viewform", rulesLink: tech_2_pdf },
-      { id: 3, title: "Tech IQ Royale", description: "Test your technical knowledge and quick thinking in this ultimate tech quiz battle.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "1 to 2 Members", venue: "TBD", coordinators: " Yokeshwar B S ( 8807938693 )", bgImage: tech_3, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdWqnlyJTQYiSDWHHFKpKivmlOQZ5JfZQTmoZE4bAEr_Prr-g/viewform", rulesLink: tech_3_pdf },
-      { id: 4, title: "CoreCode Championship", description: "Compete in intense coding challenges and prove your programming prowess.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "Individual", venue: "TBD", coordinators: "Priyanka S ( 8667098201 )", bgImage: tech_4, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc6dseKdUswSZ2YXLoREC5-G8pwFzpcf_-6-Omjvm-H04wBFQ/viewform", rulesLink: tech_4_pdf },
+      { id: 3, title: "Tech IQ Royale", description: "Test your technical knowledge and quick thinking in this ultimate tech quiz battle.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "1 to 2 Members", venue: "TBD", coordinators: " Yokeshwar B S ( 8807938693 )", bgImage: tech_3, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdWqnlyJTQYiSDWHHFKpKivmlOQZ5JfZQTmoZE4bAEr_Prr-g/viewform", rulesLink: tech_3_pdf, registrationClosed: true },
+      { id: 4, title: "CoreCode Championship", description: "Compete in intense coding challenges and prove your programming prowess.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "Individual", venue: "TBD", coordinators: "Priyanka S ( 8667098201 )", bgImage: tech_4, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc6dseKdUswSZ2YXLoREC5-G8pwFzpcf_-6-Omjvm-H04wBFQ/viewform", rulesLink: tech_4_pdf, registrationClosed: true },
       { id: 5, title: "Duel of Pathfinder", description: "Navigate through complex challenges and find optimal solutions in this strategic competition.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "1 to 4 Members", venue: "TBD", coordinators: "SACHWIN KANTH A ( 8610407856 )", bgImage: tech_5, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeWYRlRC8W4_M0rcxOj_3UvSGM2tdJ-NV3LmmcItGFXDmtxSQ/viewform", rulesLink: tech_5_pdf },
       { id: 6, title: "Clash of Perspectives", description: "Engage in thought-provoking debates and showcase your communication skills.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "1 to 6 Members", venue: "TBD", coordinators: "JAYAVARSHINI M ( 9894394939 )", bgImage: tech_6, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc2hvde5x63lPTOMQmBFIjAXuB6aWym4NR63Q0zvi5wnBEujw/viewform", rulesLink: tech_6_pdf },
       { id: 7, title: "Signal Charades", description: "Decode signals and communicate effectively in this exciting technical charades game.", date: "Feb 06, 2026", time: "9.00 AM to 2:30 PM", prize_1: "₹1500", prize_2: "₹1000", prize_3: "₹500", registrationFee: "Free Entry", teamSize: "1 to 2 Members", venue: "TBD", coordinators: " Vengatesan R ( 7448919629 )", bgImage: tech_7, registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScUIx2rcj3FCuZ_A-bP319AX1u1w-9_GtxWt9ZcR3i_PbWmoA/viewform", rulesLink: tech_7_pdf },
@@ -85,8 +85,16 @@ const EventsCard = () => {
 
   useEffect(() => {
     const selectedEvents = eventData[eventType?.toLowerCase()] || [];
-    console.log('EventType:', eventType, 'Events:', selectedEvents);
-    setEvents(selectedEvents);
+
+    // Sort events: open registrations first, closed registrations last
+    const sortedEvents = [...selectedEvents].sort((a, b) => {
+      if (a.registrationClosed && !b.registrationClosed) return 1;
+      if (!a.registrationClosed && b.registrationClosed) return -1;
+      return 0; // Maintain original order for events with same status
+    });
+
+    console.log('EventType:', eventType, 'Events:', sortedEvents);
+    setEvents(sortedEvents);
 
     // Scroll to top when eventType changes - with slight delay to ensure DOM is ready
     setTimeout(() => {
